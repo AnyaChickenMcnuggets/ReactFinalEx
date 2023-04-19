@@ -191,3 +191,47 @@ bottom: 43.05px;
 
 
 }
+
+#card{
+  /* Rectangle 11 */
+
+box-sizing: border-box;
+
+
+background: #FFFFFF;
+border: 2px solid #FFC700;
+border-radius: 50px;
+
+}
+
+#cardTop{
+  /* Rectangle 13 */
+  
+background: linear-gradient(0deg, #FFC700, #FFC700), #FFC700;
+border-radius: 50px 50px 0px 0px;
+
+}
+
+#cardBottom{
+/* Rectangle 12 */
+
+
+background: linear-gradient(0deg, #FFC700, #FFC700), #FFC700;
+border-radius: 0px 0px 50px 50px;
+
+}
+
+#cardText{
+  /* Мармеладные мишки */
+
+font-family: 'Gabriela';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+/* identical to box height */
+
+color: #000000;
+
+
+}

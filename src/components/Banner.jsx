@@ -16,7 +16,7 @@ const Banner = () => {
             <p id='bannerText' className='p-3 text-center'>Набор на Halloween</p>
             <div className='row col-12 mb-5'>
               <div className='col-10 mb-2'>
-                <p id='bannerText' className='px-3 mx-2'>1199 руб.  <span class="badge rounded-pill text-bg-danger">New</span></p>
+                <p id='bannerText' className='px-3 mx-2'>1199 руб.  <span className="badge rounded-pill text-bg-danger">New</span></p>
               </div>
               <div className='col-2 pr-5'>
                 <Button className='btn btn-dark' id='bannerButton'><FontAwesomeIcon icon={faPlus} /></Button>
@@ -26,8 +26,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      
-      
       
     </div>
     
