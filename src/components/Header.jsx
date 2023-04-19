@@ -23,7 +23,7 @@ const Header = () => {
               placeholder="Поиск"
               aria-label="Search"
             />
-            <Button id='searchButton' variant="warning"><FontAwesomeIcon id='searchIcon' icon={faMagnifyingGlass} /></Button>
+            <Button id='searchButton' className='mx-2' variant="warning"><FontAwesomeIcon id='searchIcon' icon={faMagnifyingGlass} /></Button>
             <Button id='favButton' className='mx-2' variant="warning"><FontAwesomeIcon id='favIcon' icon={faStar} /></Button>
             <Button id='orderButton' className='mx-2' variant="warning"><FontAwesomeIcon id='orderIcon' icon={faCubes} /></Button>
             <Button id='logoutButton' className='mx-2' variant="danger"><FontAwesomeIcon id='logoutIcon' icon={faRightFromBracket} /></Button>

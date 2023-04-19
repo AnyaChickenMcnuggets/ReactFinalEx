@@ -16,9 +16,9 @@ const Footer = () => {
             </div>
 
             <div className="row col-md d-flex justify-content-end">
-            <Button id='tgButton' className='mx-2' variant="warning"><FontAwesomeIcon id='tgIcon' icon={faTelegram} /></Button>
-            <Button id='vkButton' className='mx-2' variant="warning"><FontAwesomeIcon id='vkIcon' icon={faVk} /></Button>
-            <Button id='igButton' className='mx-2' variant="warning"><FontAwesomeIcon id='igIcon' icon={faInstagram} /></Button>
+            <Button id='tgButton' className='mx-2' variant="info"><FontAwesomeIcon id='tgIcon' icon={faTelegram} /></Button>
+            <Button id='vkButton' className='mx-2' variant="info"><FontAwesomeIcon id='vkIcon' icon={faVk} /></Button>
+            <Button id='igButton' className='mx-2' variant="info"><FontAwesomeIcon id='igIcon' icon={faInstagram} /></Button>
             </div>
           </div>
         </div>
