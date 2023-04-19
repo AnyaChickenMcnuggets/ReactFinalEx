@@ -11,14 +11,14 @@ const Banner = () => {
       
       <div className='col-11 row d-flex justify-content-end mb-5'>
         
-        <div className='col-2'>
+        <div className='col-3'>
           <div id='bannerCon' className='col-12 mt-5'>
-            <p id='bannerText' className='p-3 text-center'>Набор на Halloween</p>
+            <p id='bannerText' className='p-3 text-center'>Набор на Halloween      <span className="badge rounded-pill text-bg-danger">New</span></p>
             <div className='row col-12 mb-5'>
-              <div className='col-10 mb-2'>
-                <p id='bannerText' className='px-3 mx-2'>1199 руб.  <span className="badge rounded-pill text-bg-danger">New</span></p>
+              <div className='col-md mb-2'>
+                <p id='bannerText' className='p-2 mx-2 text-center'>1199 руб.</p>
               </div>
-              <div className='col-2 pr-5'>
+              <div className='col-2 m-1'>
                 <Button className='btn btn-dark' id='bannerButton'><FontAwesomeIcon icon={faPlus} /></Button>
               </div>
             </div>

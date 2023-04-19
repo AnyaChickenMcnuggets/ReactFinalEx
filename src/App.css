@@ -149,7 +149,7 @@ border-radius: 10px;
 font-family: 'Gabriela';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 24pt;
 line-height: 31px;
 
 color: #000000;
@@ -157,15 +157,12 @@ color: #000000;
 
 }
 
+
 #bannerButton{
   /* square-plus-solid 1 */
 
-
-width: 43px;
+width: 47px;
 height: 47px;
-left: 1272px;
-top: 580px;
-
 
 }
 
@@ -195,11 +192,7 @@ bottom: 43.05px;
 #card{
   /* Rectangle 11 */
 
-box-sizing: border-box;
-
-
 background: #FFFFFF;
-border: 2px solid #FFC700;
 border-radius: 50px;
 
 }
@@ -227,7 +220,7 @@ border-radius: 0px 0px 50px 50px;
 font-family: 'Gabriela';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
+font-size: 32pt;
 line-height: 41px;
 /* identical to box height */
 
